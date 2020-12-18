@@ -1,0 +1,12 @@
+Software Version: 12.900.10.16
+creating folder: C:\Microsemi\Libero_SoC_v12.5\Designer\bin\Teste_SmartDebug\designer\system\system_fp
+Created new project 'C:/Microsemi/Libero_SoC_v12.5/Designer/bin/Teste_SmartDebug/designer/system/system_fp\system.pro'
+The 'new_project' command succeeded.
+The 'add_actel_device' command succeeded.
+The 'enable_device' command succeeded.
+Project saved.
+The 'save_project' command succeeded.
+Project closed.
+Exported log file C:/Microsemi/Libero_SoC_v12.5/Designer/bin/Teste_SmartDebug/designer/system/system_fp\system.log.
+The 'close_project' command succeeded.
+The Execute Script command succeeded.

@@ -1,0 +1,60 @@
+#OPTIONS:"|-layerid|0|-orig_srs|C:\\Microsemi\\Libero_SoC_v12.5\\Designer\\bin\\Teste_SmartDebug\\synthesis\\synwork\\system_comp.srs|-top|system|-prodtype|synplify_pro|-infer_seqShift|-primux|-dspmac|-pqdpadd|-fixsmult|-sdff_counter|-divnmod|-nram|-I|C:\\Microsemi\\Libero_SoC_v12.5\\Designer\\bin\\Teste_SmartDebug\\synthesis\\|-I|C:\\Microsemi\\Libero_SoC_v12.5\\SynplifyPro\\lib|-sysv|-devicelib|C:\\Microsemi\\Libero_SoC_v12.5\\SynplifyPro\\lib\\generic\\smartfusion2.v|-encrypt|-pro|-ui|-fid2|-ram|-sharing|on|-ll|2000|-autosm|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work"
+#CUR:"C:\\Microsemi\\Libero_SoC_v12.5\\SynplifyPro\\bin64\\c_ver.exe":1592742881
+#CUR:"C:\\Microsemi\\Libero_SoC_v12.5\\SynplifyPro\\lib\\generic\\smartfusion2.v":1592743047
+#CUR:"C:\\Microsemi\\Libero_SoC_v12.5\\SynplifyPro\\lib\\vlog\\hypermods.v":1592743076
+#CUR:"C:\\Microsemi\\Libero_SoC_v12.5\\SynplifyPro\\lib\\vlog\\umr_capim.v":1592743076
+#CUR:"C:\\Microsemi\\Libero_SoC_v12.5\\SynplifyPro\\lib\\vlog\\scemi_objects.v":1592743076
+#CUR:"C:\\Microsemi\\Libero_SoC_v12.5\\SynplifyPro\\lib\\vlog\\scemi_pipes.svh":1592743076
+#CUR:"C:\\Microsemi\\Libero_SoC_v12.5\\Designer\\bin\\Teste_SmartDebug\\component\\Actel\\DirectCore\\CoreResetP\\7.1.100\\rtl\\vlog\\core\\coreresetp_pcie_hotreset.v":1607461625
+#CUR:"C:\\Microsemi\\Libero_SoC_v12.5\\Designer\\bin\\Teste_SmartDebug\\component\\Actel\\DirectCore\\CoreResetP\\7.1.100\\rtl\\vlog\\core\\coreresetp.v":1607461625
+#CUR:"C:\\Microsemi\\Libero_SoC_v12.5\\Designer\\bin\\Teste_SmartDebug\\component\\work\\system_sb\\CCC_0\\system_sb_CCC_0_FCCC.v":1608300570
+#CUR:"C:\\Microsemi\\Libero_SoC_v12.5\\Designer\\bin\\Teste_SmartDebug\\component\\Actel\\SgCore\\OSC\\2.0.101\\osc_comps.v":1607461627
+#CUR:"C:\\Microsemi\\Libero_SoC_v12.5\\Designer\\bin\\Teste_SmartDebug\\component\\work\\system_sb\\FABOSC_0\\system_sb_FABOSC_0_OSC.v":1608300572
+#CUR:"C:\\Microsemi\\Libero_SoC_v12.5\\Designer\\bin\\Teste_SmartDebug\\component\\work\\system_sb_MSS\\system_sb_MSS_syn.v":1608300566
+#CUR:"C:\\Microsemi\\Libero_SoC_v12.5\\Designer\\bin\\Teste_SmartDebug\\component\\work\\system_sb_MSS\\system_sb_MSS.v":1608300567
+#CUR:"C:\\Microsemi\\Libero_SoC_v12.5\\Designer\\bin\\Teste_SmartDebug\\component\\work\\system_sb\\system_sb.v":1608300572
+#CUR:"C:\\Microsemi\\Libero_SoC_v12.5\\Designer\\bin\\Teste_SmartDebug\\component\\work\\system\\system.v":1608300644
+0			"C:\Microsemi\Libero_SoC_v12.5\Designer\bin\Teste_SmartDebug\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp_pcie_hotreset.v" verilog
+1			"C:\Microsemi\Libero_SoC_v12.5\Designer\bin\Teste_SmartDebug\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v" verilog
+2			"C:\Microsemi\Libero_SoC_v12.5\Designer\bin\Teste_SmartDebug\component\work\system_sb\CCC_0\system_sb_CCC_0_FCCC.v" verilog
+3			"C:\Microsemi\Libero_SoC_v12.5\Designer\bin\Teste_SmartDebug\component\Actel\SgCore\OSC\2.0.101\osc_comps.v" verilog
+4			"C:\Microsemi\Libero_SoC_v12.5\Designer\bin\Teste_SmartDebug\component\work\system_sb\FABOSC_0\system_sb_FABOSC_0_OSC.v" verilog
+5			"C:\Microsemi\Libero_SoC_v12.5\Designer\bin\Teste_SmartDebug\component\work\system_sb_MSS\system_sb_MSS_syn.v" verilog
+6			"C:\Microsemi\Libero_SoC_v12.5\Designer\bin\Teste_SmartDebug\component\work\system_sb_MSS\system_sb_MSS.v" verilog
+7			"C:\Microsemi\Libero_SoC_v12.5\Designer\bin\Teste_SmartDebug\component\work\system_sb\system_sb.v" verilog
+8			"C:\Microsemi\Libero_SoC_v12.5\Designer\bin\Teste_SmartDebug\component\work\system\system.v" verilog
+#Dependency Lists(Uses List)
+0 -1
+1 0
+2 -1
+3 -1
+4 3
+5 -1
+6 5
+7 6 4 1 2
+8 7
+#Dependency Lists(Users Of)
+0 1
+1 7
+2 7
+3 4
+4 7
+5 6
+6 7
+7 8
+8 -1
+#Design Unit to File Association
+module work system 8
+module work system_sb 7
+module work system_sb_MSS 6
+module work MSS_010 5
+module work system_sb_FABOSC_0_OSC 4
+module work XTLOSC_FAB 3
+module work RCOSC_25_50MHZ_FAB 3
+module work RCOSC_1MHZ_FAB 3
+module work XTLOSC 3
+module work RCOSC_25_50MHZ 3
+module work RCOSC_1MHZ 3
+module work system_sb_CCC_0_FCCC 2
+module work CoreResetP 1
+module work coreresetp_pcie_hotreset 0

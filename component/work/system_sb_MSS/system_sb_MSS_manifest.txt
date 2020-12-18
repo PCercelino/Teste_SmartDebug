@@ -1,0 +1,26 @@
+Microsemi Corporation - Microsemi Libero Software Release v12.5 (Version 12.900.10.16)
+
+Date      :  Fri Dec 18 11:09:27 2020
+Project   :  C:\Microsemi\Libero_SoC_v12.5\Designer\bin\Teste_SmartDebug
+Component :  system_sb_MSS
+Family    :  SmartFusion2
+
+
+HDL source files for all Synthesis and Simulation tools:
+    C:/Microsemi/Libero_SoC_v12.5/Designer/bin/Teste_SmartDebug/component/work/system_sb_MSS/system_sb_MSS.v
+
+HDL source files for Synopsys SynplifyPro Synthesis tool:
+    C:/Microsemi/Libero_SoC_v12.5/Designer/bin/Teste_SmartDebug/component/work/system_sb_MSS/system_sb_MSS_syn.v
+
+HDL source files for Mentor Precision Synthesis tool:
+    C:/Microsemi/Libero_SoC_v12.5/Designer/bin/Teste_SmartDebug/component/work/system_sb_MSS/system_sb_MSS_pre.v
+
+Stimulus files for all Simulation tools:
+    C:/Microsemi/Libero_SoC_v12.5/Designer/bin/Teste_SmartDebug/component/Actel/SmartFusion2MSS/MSS/1.1.500/peripheral_init.bfm
+    C:/Microsemi/Libero_SoC_v12.5/Designer/bin/Teste_SmartDebug/component/work/system_sb_MSS/CM3_compile_bfm.tcl
+    C:/Microsemi/Libero_SoC_v12.5/Designer/bin/Teste_SmartDebug/component/work/system_sb_MSS/test.bfm
+    C:/Microsemi/Libero_SoC_v12.5/Designer/bin/Teste_SmartDebug/component/work/system_sb_MSS/user.bfm
+
+Firmware files for all Software IDE tools:
+    C:/Microsemi/Libero_SoC_v12.5/Designer/bin/Teste_SmartDebug/component/work/system_sb_MSS/sys_config_mss_clocks.h
+

@@ -1,0 +1,10 @@
+Software Version: 12.900.10.16
+Opened 'C:\Microsemi\Libero_SoC_v12.5\Designer\bin\Teste_SmartDebug\designer\system\system_fp\system.pro'
+PDB file 'C:\Microsemi\Libero_SoC_v12.5\Designer\bin\Teste_SmartDebug\designer\system\system.pdb' has been loaded successfully.
+DESIGN : system;  CHECKSUM : 4801;  PDB_VERSION : 1.9
+Successfully exported PPD file for currently secured device: 'C:\Microsemi\Libero_SoC_v12.5\Designer\bin\Teste_SmartDebug\designer\system\system.ppd'; file programs Fabric.
+Fabric component bitstream digest: 4d52cce260f57e84bcdc2fb2e2be18f355f4e0f026dad25807de6c92cfdce162
+Finished: Fri Dec 18 11:12:58 2020 (Elapsed time 00:00:08)
+
+Project saved.
+Project closed.

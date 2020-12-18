@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<SynplifyOutput>
+	<result>Success</result>
+	<design>system</design>
+	<target_verilog>C:\Microsemi\Libero_SoC_v12.5\Designer\bin\Teste_SmartDebug\synthesis\system.vm</target_verilog>
+</SynplifyOutput>

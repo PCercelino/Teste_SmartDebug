@@ -1,0 +1,16 @@
+Project Name: Teste_SmartDebug
+Location: C:\Microsemi\Libero_SoC_v12.5\Designer\bin\Teste_SmartDebug
+Description: 
+Preferred HDL Type: Verilog
+
+#-----------------------------------------------------
+                  Device Details
+#-----------------------------------------------------
+
+Part Number    : M2S010-TQ144
+Family         : SmartFusion2
+Die            : M2S010
+Package        : 144 TQ
+Speed          : STD
+Core Voltage   : 1.2
+Range          : COM

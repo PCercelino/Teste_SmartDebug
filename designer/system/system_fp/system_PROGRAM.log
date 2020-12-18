@@ -1,0 +1,42 @@
+Software Version: 12.900.10.16
+Programmer: 'E20026I87K' : JTAG TCK / SPI SCK frequency = 1 MHz
+programmer 'E20026I87K' : FlashPro5
+Opened 'C:\Microsemi\Libero_SoC_v12.5\Designer\bin\Teste_SmartDebug\designer\system\system_fp\system.pro'
+The 'open_project' command succeeded.
+Warning: Programming is already enabled for device 'M2S010'.
+The 'enable_device' command succeeded.
+PPD file 'C:/Microsemi/Libero_SoC_v12.5/Designer/bin/Teste_SmartDebug/designer/system/system.ppd' has been loaded successfully.
+DESIGN : system;  CHECKSUM : 4801;  PDB_VERSION : 1.0
+The 'set_programming_file' command succeeded.
+The 'set_programming_action' command succeeded.
+programmer 'E20026I87K' : Scan Chain...
+Programmer: 'E20026I87K' : JTAG TCK / SPI SCK frequency = 1 MHz
+programmer 'E20026I87K' : Check Chain...
+programmer 'E20026I87K' : Scan and Check Chain PASSED.
+programmer 'E20026I87K' : device 'M2S010' : Executing action PROGRAM
+Programmer: 'E20026I87K' : JTAG TCK / SPI SCK frequency = 4 MHz
+programmer 'E20026I87K' : device 'M2S010' : Family: Igloo2
+programmer 'E20026I87K' : device 'M2S010' : Product:      M2GL005
+programmer 'E20026I87K' : device 'M2S010' : Cortex-M3 Disabled (M3_ALLOWED = 0)
+programmer 'E20026I87K' : device 'M2S010' : EXPORT ISC_ENABLE_RESULT[32] = 00776544
+programmer 'E20026I87K' : device 'M2S010' : EXPORT CRCERR[1] = 0
+programmer 'E20026I87K' : device 'M2S010' : EXPORT EDCERR[1] = 0
+programmer 'E20026I87K' : device 'M2S010' : Programming FPGA Array...
+programmer 'E20026I87K' : device 'M2S010' : EXPORT Fabric component digest[256] = 4d52cce260f57e84bcdc2fb2e2be18f355f4e0f026dad25807de6c92cfdce162
+programmer 'E20026I87K' : device 'M2S010' : ===================================================================================
+programmer 'E20026I87K' : device 'M2S010' : EXPORT DSN[128] = 15e3aeb211de80e03edd43116bd0e693
+programmer 'E20026I87K' : device 'M2S010' : ===================================================================================
+programmer 'E20026I87K' : device 'M2S010' : Finished: Fri Dec 18 11:13:32 2020 (Elapsed time 00:00:24)
+programmer 'E20026I87K' : device 'M2S010' : Executing action PROGRAM PASSED.
+programmer 'E20026I87K' : Chain programming PASSED.
+Chain Programming Finished: Fri Dec 18 11:13:32 2020 (Elapsed time 00:00:24)
+
+                        o - o - o - o - o - o
+
+The 'run_selected_actions' command succeeded.
+Project saved.
+The 'save_project' command succeeded.
+Project closed.
+Exported log file C:\Microsemi\Libero_SoC_v12.5\Designer\bin\Teste_SmartDebug\designer\system\system_fp\system.log.
+The 'close_project' command succeeded.
+The Execute Script command succeeded.

@@ -1,0 +1,81 @@
+
+Starting:    C:\Microsemi\Libero_SoC_v12.5\SynplifyPro\bin64\mbin\synbatch.exe
+Install:     C:\Microsemi\Libero_SoC_v12.5\SynplifyPro
+Hostname:    LAPTOP-HTQIEO6U
+Date:        Fri Dec 18 11:10:58 2020
+Version:     Q-2020.03M
+
+Arguments:   -product synplify_pro -licensetype synplifypro_actel -batch -log synplify.log system_syn.tcl
+ProductType: synplify_pro
+
+License checkout: synplifypro_actel
+License: synplifypro_actel node-locked 
+Licensed Vendor: actel
+License Option: actel_oem
+
+Running in Vendor Mode
+
+"automatic_compile_point" is unrecognized option for current device
+Implementation not found: synthesis
+log file: "C:\Microsemi\Libero_SoC_v12.5\Designer\bin\Teste_SmartDebug\synthesis\system.srr"
+Running: synthesis in foreground
+
+Running system_syn|synthesis
+
+Running Flow: compile (Compile) on system_syn|synthesis
+# Fri Dec 18 11:10:59 2020
+
+Running Flow: compile_flow (Compile Process) on system_syn|synthesis
+# Fri Dec 18 11:10:59 2020
+
+Running: compiler (Compile Input) on system_syn|synthesis
+# Fri Dec 18 11:10:59 2020
+Copied C:\Microsemi\Libero_SoC_v12.5\Designer\bin\Teste_SmartDebug\synthesis\synwork\system_comp.srs to C:\Microsemi\Libero_SoC_v12.5\Designer\bin\Teste_SmartDebug\synthesis\system.srs
+
+compiler completed
+# Fri Dec 18 11:11:03 2020
+
+Return Code: 0
+Run Time:00h:00m:04s
+
+Running: multi_srs_gen (Multi-srs Generator) on system_syn|synthesis
+# Fri Dec 18 11:11:03 2020
+
+multi_srs_gen completed
+# Fri Dec 18 11:11:04 2020
+
+Return Code: 0
+Run Time:00h:00m:01s
+Copied C:\Microsemi\Libero_SoC_v12.5\Designer\bin\Teste_SmartDebug\synthesis\synwork\system_mult.srs to C:\Microsemi\Libero_SoC_v12.5\Designer\bin\Teste_SmartDebug\synthesis\system.srs
+Complete: Compile Process on system_syn|synthesis
+
+Running: premap (Premap) on system_syn|synthesis
+# Fri Dec 18 11:11:04 2020
+
+premap completed with warnings
+# Fri Dec 18 11:11:06 2020
+
+Return Code: 1
+Run Time:00h:00m:02s
+Complete: Compile on system_syn|synthesis
+
+Running Flow: map (Map) on system_syn|synthesis
+# Fri Dec 18 11:11:06 2020
+License granted for 4 parallel jobs
+
+Running: fpga_mapper (Map & Optimize) on system_syn|synthesis
+# Fri Dec 18 11:11:06 2020
+Copied C:\Microsemi\Libero_SoC_v12.5\Designer\bin\Teste_SmartDebug\synthesis\synwork\system_m.srm to C:\Microsemi\Libero_SoC_v12.5\Designer\bin\Teste_SmartDebug\synthesis\system.srm
+
+fpga_mapper completed with warnings
+# Fri Dec 18 11:11:10 2020
+
+Return Code: 1
+Run Time:00h:00m:04s
+Complete: Map on system_syn|synthesis
+Complete: Logic Synthesis on system_syn|synthesis
+Copied C:\Microsemi\Libero_SoC_v12.5\Designer\bin\Teste_SmartDebug\synthesis\system.srr to C:\Microsemi\Libero_SoC_v12.5\Designer\bin\Teste_SmartDebug\synthesis\backup\system.srr
+TCL script complete: "system_syn.tcl"
+exit status=0
+exit status=0
+License checkin: synplifypro_actel

@@ -1,0 +1,7 @@
+C:\Microsemi\Libero_SoC_v12.5\SynplifyPro\bin64\syn_nfilter.exe  -link  -top  system  -multisrs  C:\Microsemi\Libero_SoC_v12.5\Designer\bin\Teste_SmartDebug\synthesis\synwork\system_comp.srs  -osyn  C:\Microsemi\Libero_SoC_v12.5\Designer\bin\Teste_SmartDebug\synthesis\synwork\system_mult.srs  -log  C:\Microsemi\Libero_SoC_v12.5\Designer\bin\Teste_SmartDebug\synthesis\synlog\system_multi_srs_gen.srr 
+relcom:..\..\..\..\..\SynplifyPro\bin64\syn_nfilter.exe -link -top system -multisrs ..\synwork\system_comp.srs -osyn ..\synwork\system_mult.srs -log ..\synlog\system_multi_srs_gen.srr
+rc:0 success:1 runtime:1
+file:..\synwork\system_comp.srs|io:i|time:1608300662|size:60581|exec:0|csum:912D37931D3EE335598F97D0C88AAA38
+file:..\synwork\system_mult.srs|io:o|time:1608300664|size:2434|exec:0|csum:
+file:..\synlog\system_multi_srs_gen.srr|io:o|time:1608300664|size:1051|exec:0|csum:
+file:..\..\..\..\..\SynplifyPro\bin64\syn_nfilter.exe|io:i|time:1592742899|size:8875008|exec:1|csum:5D649773CE06DBF315FAA656C31B87F1

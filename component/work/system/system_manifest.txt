@@ -1,0 +1,14 @@
+Microsemi Corporation - Microsemi Libero Software Release v12.5 (Version 12.900.10.16)
+
+Date      :  Fri Dec 18 11:10:45 2020
+Project   :  C:\Microsemi\Libero_SoC_v12.5\Designer\bin\Teste_SmartDebug
+Component :  system
+Family    :  SmartFusion2
+
+
+HDL source files for all Synthesis and Simulation tools:
+    C:/Microsemi/Libero_SoC_v12.5/Designer/bin/Teste_SmartDebug/component/work/system/system.v
+
+Stimulus files for all Simulation tools:
+    C:/Microsemi/Libero_SoC_v12.5/Designer/bin/Teste_SmartDebug/component/work/system/subsystem.bfm
+
